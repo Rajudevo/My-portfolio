@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+
+.aqua {
+  color: aqua;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.target-button {
+  text-decoration: none;
+  background-color: aquamarine;
+  padding: 10px 40px;
+  background-image: linear-gradient(aqua, aquamarine);
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
