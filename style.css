@@ -4,29 +4,42 @@ body {
 }
 h1 {
   font-size: 50px;
+  margin: 0;
+}
+h2 {
+  font-size: 35px;
 }
 
 .aqua {
   color: aqua;
 }
-section {
+.flexible-con {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 .half-width img {
-  width: 80%;
+  width: 85%;
+  padding-left: 5%;
 }
 .target-button {
   text-decoration: none;
-  background-color: aquamarine;
+  color: darkmagenta;
   padding: 10px 40px;
   background-image: linear-gradient(aqua, aquamarine);
   font-weight: 700;
   border-radius: 5px;
+}
+.box-in {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
 }
 
 .top-banner {
@@ -38,4 +51,26 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#full-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(aqua, gold);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
